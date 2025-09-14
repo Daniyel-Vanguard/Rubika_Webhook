@@ -29,8 +29,8 @@ bool sendPostRequest(const std::string& url, const std::string& json_data, std::
 }
 
 int main() {
-    const std::string token = "JGHC0XREADYWPFQPKPAHYCBXOZHXSJNEVSVBNNZHTRVSZYIRHJINQZZWMCUJRWOA";
-    const std::string webhook_url = "https://vddaniyel.top/bot.php";
+    const std::string token = "YOUR_BOT_TOKEN_HERE";
+    const std::string webhook_url = "https://yourdomain.com/bot.php";
     const std::string api_url = "https://botapi.rubika.ir/v3/" + token + "/updateBotEndpoints";
     
     std::vector<std::string> endpoints = {
