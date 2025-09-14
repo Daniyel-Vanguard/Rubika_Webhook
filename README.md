@@ -33,13 +33,13 @@ pkg install curl python git
 # 💻 نصب و راه‌اندازی
 نسخه پایتون:
 ```bash
-git clone https://github.com/yourusername/rubika-webhook-setup.git
+git clone https://github.com/Daniyel-Vanguard/Rubika_Webhook.git
 cd rubika-webhook-setup
 python rubika_bot.py
 ```
 نسخه C++:
 ```bash
-git clone https://github.com/yourusername/rubika-webhook-setup.git
+git clone https://github.com/Daniyel-Vanguard/Rubika_Webhook.git
 cd rubika-webhook-setup
 g++ -o rubika_bot rubika_bot.cpp -std=c++11
 ./rubika_bot
@@ -78,14 +78,14 @@ pip install requests
 ```
 اجرای نسخه پایتون در Termux:
 ```bash
-git clone https://github.com/yourusername/rubika-webhook-setup.git
+git clone https://github.com/Daniyel-Vanguard/Rubika_Webhook.git
 cd rubika-webhook-setup
 python rubika_bot.py
 ```
 یا اجرای نسخه C++ در Termux:
 ```bash
 pkg install clang
-git clone https://github.com/yourusername/rubika-webhook-setup.git
+git clone https://github.com/Daniyel-Vanguard/Rubika_Webhook.git
 cd rubika-webhook-setup
 g++ -o rubika_bot rubika_bot.cpp -std=c++11
 ./rubika_bot
@@ -113,13 +113,13 @@ Timeout - timeout شدن درخواست
 لاگ‌گیری:
 کد به طور خودکار نتیجه هر endpoint را نمایش می‌دهد.
 
- #📝 مثال‌های کاربردی
+# 📝 مثال‌های کاربردی
+
 نمونه خروجی موفق:
-text
+```text
 🚀 شروع تنظیم endpoint‌های بات Rubika
-==================================================
+
 🌐 آدرس وبhook: https://yourdomain.com/bot.php
-==================================================
 📡 ReceiveUpdate:
    ✅ موفق - وضعیت: OK
 📡 ReceiveInlineMessage:
@@ -130,8 +130,9 @@ text
    ✅ موفق - وضعیت: OK
 📡 SearchSelectionItems:
    ✅ موفق - وضعیت: OK
-==================================================
+
 🎯 عملیات تکمیل شد!
+```
 اجرای خودکار:
 می‌توانید اسکریپت را در crontab برای بررسی دوره‌ای تنظیم کنید.
 
