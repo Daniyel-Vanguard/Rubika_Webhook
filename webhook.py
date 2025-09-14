@@ -2,8 +2,8 @@ import requests
 import json
 import time
 
-token = "JGHC0XREADYWPFQPKPAHYCBXOZHXSJNEVSVBNNZHTRVSZYIRHJINQZZWMCUJRWOA"
-webhook_url = "https://vddaniyel.top/bot.php"
+token = "YOUR_BOT_TOKEN_HERE"
+webhook_url = "https://yourdomain.com/bot.php"
 api_url = f"https://botapi.rubika.ir/v3/{token}/updateBotEndpoints"
 
 
