@@ -36,14 +36,14 @@ pkg install curl python git
 نسخه پایتون:
 ```bash
 git clone https://github.com/Daniyel-Vanguard/Rubika_Webhook.git
-cd rubika-webhook-setup
+cd Rubika_Webhook
 python webhook.py
 ```
 نسخه C++:
 ```bash
 git clone https://github.com/Daniyel-Vanguard/Rubika_Webhook.git
-cd rubika-webhook-setup
-g++ -o rubika_bot webhook.cpp -std=c++11
+cd Rubika_Webhook
+g++ -o webhook webhook.cpp -std=c++11
 ./webhook
 ```
 # 🛠 استفاده
@@ -81,15 +81,15 @@ pip install requests
 اجرای نسخه پایتون در Termux:
 ```bash
 git clone https://github.com/Daniyel-Vanguard/Rubika_Webhook.git
-cd rubika-webhook-setup
+cd Rubika_Webhook
 python webhook.py
 ```
 یا اجرای نسخه C++ در Termux:
 ```bash
 pkg install clang
 git clone https://github.com/Daniyel-Vanguard/Rubika_Webhook.git
-cd rubika-webhook-setup
-g++ -o rubika_bot rubika_bot.cpp -std=c++11
+cd Rubika_Webhook
+g++ -o webhook webhook.cpp -std=c++11
 ./webhook
 ```
 # 🔧 عیب‌یابی
