@@ -77,5 +77,4 @@ async function main() {
     console.log("🎯 عملیات تکمیل شد!");
 }
 
-// اجرای برنامه
 main().catch(console.error);
