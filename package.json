@@ -1,0 +1,26 @@
+{
+  "name": "rubika-bot-webhook",
+  "version": "1.0.0",
+  "description": "تنظیم وب‌هوک برای بات روبیکا",
+  "main": "webhook.js",
+  "scripts": {
+    "start": "node webhook.js",
+    "dev": "node webhook.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rubika",
+    "bot",
+    "webhook",
+    "api",
+    "messaging"
+  ],
+  "author": "Daniyel",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
