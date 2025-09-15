@@ -19,6 +19,7 @@
 · نسخه پایتون (webhook.py)
 · نسخه C++ (webhook.cpp)
 · نسخه Node.js (webhook.js)
+· نسخه shell (webhook.sh)
 
 # 📋 پیش‌نیازها
 
