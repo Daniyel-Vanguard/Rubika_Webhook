@@ -1,7 +1,7 @@
 #!/bin/bash
 
-TOKEN="JGHC0XREADYWPFQPKPAHYCBXOZHXSJNEVSVBNNZHTRVSZYIRHJINQZZWMCUJRWOA"
-WEBHOOK_URL="https://vddaniyel.top/bot.php"
+TOKEN="YOUR_BOT_TOKEN_HERE"
+WEBHOOK_URL="https://yourdomain.com/bot.php"
 API_URL="https://botapi.rubika.ir/v3/${TOKEN}/updateBotEndpoints"
 
 
