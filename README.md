@@ -1,4 +1,5 @@
 # مستندات تنظیم وب‌هوک بات روبیکا
+<img align="center" src="https://rubika.ir/static/images/logo.svg"/>
 
 # 📖 فهرست مطالب
 
